@@ -62,4 +62,64 @@ a {
   color: white;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_about\.scss}line{font-family:\000033}}
+.about__title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  color: #737373;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_about\.scss}line{font-family:\0000310}}
+.about__title:after {
+  content: "";
+  display: block;
+  width: 69px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: #d24a43;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_about\.scss}line{font-family:\0000321}}
+.about__inner {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_about\.scss}line{font-family:\0000325}}
+.about__sub-info {
+  text-transform: uppercase;
+  color: #d24a43;
+  font-weight: 600;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_button\.scss}line{font-family:\000031}}
+.button {
+  cursor: pointer;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d24a43;
+  -webkit-box-shadow: 0px 6px 8px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 6px 8px -2px rgba(0, 0, 0, 0.75);
+  width: 166px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_button\.scss}line{font-family:\0000311}}
+.button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_button\.scss}line{font-family:\0000314}}
+.button__text {
+  color: #fff;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_button\.scss}line{font-family:\0000319}}
+.button--header {
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

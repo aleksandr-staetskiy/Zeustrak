@@ -1,0 +1,30 @@
+.about {
+
+    &__title {
+        margin-top: 50px;
+        text-transform: uppercase;
+        @include semi-bold;
+        font-size: 30px;
+        color: $title-color;
+        
+        &:after {
+            content: "";
+            display: block;
+            width: 69px; 
+            height: 4px;
+            margin: 0 auto;
+            margin-top: 15px;
+            background: $main-color;
+            display: flex;
+        }
+    }
+    &__inner {
+        text-align: center;
+    }
+
+    &__sub-info {
+        text-transform: uppercase;
+        color: $main-color;
+        @include semi-bold;
+    }
+}
