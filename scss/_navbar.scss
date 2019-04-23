@@ -1,0 +1,24 @@
+.navbar {
+    background: #ddd;
+    margin-top: 13px;
+
+    &__link {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        @include semi-bold;
+        transition: 0.5s ease;
+
+        &:hover {
+            background: $main-color;
+            color: white;
+        }
+
+        &--active {
+            background: $main-color;
+            color: white;
+        }
+    }
+}

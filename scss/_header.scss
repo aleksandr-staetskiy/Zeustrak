@@ -1,0 +1,12 @@
+.header {
+}
+.logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    @include semi-bold;
+    text-transform: uppercase;
+    background: #ddd;
+    padding: 40px 0px;
+}
