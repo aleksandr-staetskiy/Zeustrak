@@ -1,0 +1,32 @@
+.schedule {
+    text-transform: uppercase;
+    @include semi-bold;
+
+    &__title {
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    &__table {
+        background: $bg;
+    }
+
+    &__row {
+        padding: 10px 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--odd {
+            background: #ffffff;
+        }
+    }
+
+
+
+    &__cell-1 {
+        padding-right: 40px;
+    }
+    &__cell-2 {
+        padding-left: 40px;
+    }
+}
