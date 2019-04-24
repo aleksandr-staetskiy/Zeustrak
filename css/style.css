@@ -13,6 +13,11 @@ a {
   color: inherit;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_global\.scss}line{font-family:\0000314}}
+.text-center {
+  text-align: center !important;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_header\.scss}line{font-family:\000033}}
 .logo {
   margin-top: 20px;
@@ -236,6 +241,20 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_schedule\.scss}line{font-family:\0000329}}
 .schedule__cell-2 {
   padding-left: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  margin-top: 50px;
+  background: #ddd;
+  padding: 13px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aleksandr\/Desktop\/zeustrack\/scss\/_footer\.scss}line{font-family:\000036}}
+.footer__number {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 600;
+  border-bottom: 1px solid #767676;
 }
 
 /*# sourceMappingURL=style.css.map */

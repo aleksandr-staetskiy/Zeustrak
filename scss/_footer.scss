@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 50px;
+    background: $bg;
+    padding: 13px 0px;
+
+    &__number{
+        font-size: 14px;
+        color: #767676;
+        @include semi-bold;
+        border-bottom: 1px solid #767676;
+
+    }
+}
