@@ -1,3 +1,12 @@
 @mixin semi-bold {
-   font-weight: 600; 
+  font-weight: 600;
+}
+
+@mixin underline {
+  content: "";
+  display: block;
+  width: 69px;
+  height: 4px;
+  background: $main-color;
+  display: flex;
 }

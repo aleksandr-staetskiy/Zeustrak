@@ -8,14 +8,10 @@
         color: $title-color;
         
         &:after {
-            content: "";
-            display: block;
-            width: 69px; 
-            height: 4px;
+            @include underline;
             margin: 0 auto;
             margin-top: 15px;
-            background: $main-color;
-            display: flex;
+            
         }
     }
     &__inner {
